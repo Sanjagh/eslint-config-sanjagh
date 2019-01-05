@@ -9,4 +9,14 @@ module.exports = {
       generators: false,
     },
   },
+  rules: {
+    'no-const-assign': 'error',
+
+    'prefer-const': ['error', {
+      destructuring: 'any',
+      ignoreReadBeforeAssign: true,
+    }],
+
+    'no-var': 'error',
+  },
 };
