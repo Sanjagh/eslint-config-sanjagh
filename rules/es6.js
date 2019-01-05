@@ -34,8 +34,8 @@ module.exports = {
         object: true,
       },
     }, {
-        enforceForRenamedProperties: false,
-      }],
+      enforceForRenamedProperties: false,
+    }],
 
     'prefer-template': 'error',
 

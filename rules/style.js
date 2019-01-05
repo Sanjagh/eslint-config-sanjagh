@@ -62,7 +62,78 @@ module.exports = {
     'nonblock-statement-body-position': ['error', 'beside'],
 
     'brace-style': ['error', '1tbs', { allowSingleLine: true }],
-    
+
     'spaced-comment': ['error', 'always'],
+
+    indent: ['error', 2, {
+      SwitchCase: 1,
+      VariableDeclarator: 1,
+      outerIIFEBody: 1,
+      FunctionDeclaration: {
+        parameters: 1,
+        body: 1
+      },
+      FunctionExpression: {
+        parameters: 1,
+        body: 1
+      },
+      CallExpression: {
+        arguments: 1
+      },
+      ArrayExpression: 1,
+      ObjectExpression: 1,
+      ImportDeclaration: 1,
+      flatTernaryExpressions: false,
+      ignoredNodes: ['JSXElement', 'JSXElement > *', 'JSXAttribute', 'JSXIdentifier', 'JSXNamespacedName', 'JSXMemberExpression', 'JSXSpreadAttribute', 'JSXExpressionContainer', 'JSXOpeningElement', 'JSXClosingElement', 'JSXText', 'JSXEmptyExpression', 'JSXSpreadChild'],
+      ignoreComments: false
+    }],
+
+    'space-before-blocks': 'error',
+
+    'keyword-spacing': ['error', {
+      before: true,
+      after: true,
+      overrides: {
+        return: { after: true },
+        throw: { after: true },
+        case: { after: true }
+      }
+    }],
+
+    'space-infix-ops': 'error',
+
+    'newline-per-chained-call': ['error', { ignoreChainWithDepth: 4 }],
+
+    'padded-blocks': ['error', { blocks: 'never', classes: 'never', switches: 'never' }],
+
+    'space-in-parens': ['error', 'never'],
+
+    'array-bracket-spacing': ['error', 'never'],
+
+    'object-curly-spacing': ['error', 'always'],
+
+    'max-len': ['error', 120, 2, {
+      ignoreUrls: true,
+      ignoreComments: false,
+      ignoreRegExpLiterals: true,
+      ignoreStrings: true,
+      ignoreTemplateLiterals: true,
+    }],
+
+    'block-spacing': ['error', 'always'],
+
+    'comma-spacing': ['error', { before: false, after: true }],
+
+    'func-call-spacing': ['error', 'never'],
+
+    'key-spacing': ['error', { beforeColon: false, afterColon: true }],
+
+    'no-trailing-spaces': ['error', {
+      skipBlankLines: false,
+      ignoreComments: false,
+    }],
+
+    'no-multiple-empty-lines': ['error', { max: 2, maxEOF: 0 }],
+
   },
 };
