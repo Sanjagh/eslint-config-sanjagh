@@ -21,5 +21,18 @@ module.exports = {
     'no-array-constructor': 'error',
 
     quotes: ['error', 'single'],
+
+    'func-style': ['warn', 'expression'],
+
+    'space-before-function-paren': ['error', {
+      anonymous: 'always',
+      named: 'never',
+      asyncArrow: 'always'
+    }],
+
+    'space-before-blocks': 'error',
+
+    'function-paren-newline': ['error', 'consistent'],
+
   },
 };

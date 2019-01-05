@@ -1,5 +1,13 @@
 module.exports = {
   rules: {
     'no-useless-escape': 'error',
+
+    'wrap-iife': ['error', 'outside'],
+
+    'no-loop-func': 'error',
+
+    'no-new-func': 'error',
+    
+    'no-param-reassign': 'error',
   },
 };

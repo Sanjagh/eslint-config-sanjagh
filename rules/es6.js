@@ -40,5 +40,7 @@ module.exports = {
     'prefer-template': 'error',
 
     'template-curly-spacing': 'error',
+
+    'prefer-rest-params': 'error',
   },
 };
