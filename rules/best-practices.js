@@ -7,9 +7,11 @@ module.exports = {
     'no-loop-func': 'error',
 
     'no-new-func': 'error',
-    
+
     'no-param-reassign': 'error',
 
     'no-iterator': 'error',
+
+    'dot-notation': ['error', { allowKeywords: true }],
   },
 };
