@@ -17,5 +17,7 @@ module.exports = {
     'no-unused-vars': ['error', { vars: 'all', args: 'after-used', ignoreRestSiblings: true }],
 
     'no-new-object': 'error',
+
+    'no-array-constructor': 'error',
   },
 };
