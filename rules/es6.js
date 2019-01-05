@@ -23,5 +23,18 @@ module.exports = {
       ignoreConstructors: false,
       avoidQuotes: true,
     }],
+
+    'prefer-destructuring': ['error', {
+      VariableDeclarator: {
+        array: false,
+        object: true,
+      },
+      AssignmentExpression: {
+        array: true,
+        object: true,
+      },
+    }, {
+        enforceForRenamedProperties: false,
+      }],
   },
 };
