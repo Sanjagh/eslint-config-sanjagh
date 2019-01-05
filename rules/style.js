@@ -58,5 +58,9 @@ module.exports = {
       ],
       allowSamePrecedence: false
     }],
+
+    'nonblock-statement-body-position': ['error', 'beside'],
+
+    'brace-style': ['error', '1tbs', { allowSingleLine: true }],
   },
 };

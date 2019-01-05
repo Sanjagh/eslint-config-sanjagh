@@ -17,5 +17,7 @@ module.exports = {
     eqeqeq: ['error', 'always'],
 
     'no-case-declarations': 'error',
+
+    'no-else-return': ['error', { allowElseIf: false }],
   },
 };
