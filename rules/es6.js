@@ -53,5 +53,9 @@ module.exports = {
     'no-confusing-arrow': ['error', {
       allowParens: true,
     }],
+
+    'no-useless-constructor': 'error',
+
+    'no-dupe-class-members': 'error',
   },
 };
