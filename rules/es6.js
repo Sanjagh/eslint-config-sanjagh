@@ -42,5 +42,16 @@ module.exports = {
     'template-curly-spacing': 'error',
 
     'prefer-rest-params': 'error',
+
+    'prefer-arrow-callback': ['error', {
+      allowNamedFunctions: false,
+      allowUnboundThis: true,
+    }],
+
+    'arrow-spacing': ['error', { before: true, after: true }],
+
+    'no-confusing-arrow': ['error', {
+      allowParens: true,
+    }],
   },
 };

@@ -34,5 +34,6 @@ module.exports = {
 
     'function-paren-newline': ['error', 'consistent'],
 
+    'implicit-arrow-linebreak': ['error', 'beside'],
   },
 };
