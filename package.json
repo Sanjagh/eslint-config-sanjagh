@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-sanjagh",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "linter",
+    "lint",
+    "codestyle",
+    "sanjagh"
+  ],
+  "author": "Amirali Esmaeili",
+  "devDependencies": {
+    "eslint": "^5.12.0"
+  }
+}
