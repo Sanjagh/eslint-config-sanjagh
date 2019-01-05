@@ -62,5 +62,7 @@ module.exports = {
     'nonblock-statement-body-position': ['error', 'beside'],
 
     'brace-style': ['error', '1tbs', { allowSingleLine: true }],
+    
+    'spaced-comment': ['error', 'always'],
   },
 };
