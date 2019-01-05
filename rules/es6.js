@@ -18,5 +18,10 @@ module.exports = {
     }],
 
     'no-var': 'error',
+
+    'object-shorthand': ['error', 'always', {
+      ignoreConstructors: false,
+      avoidQuotes: true,
+    }],
   },
 };
