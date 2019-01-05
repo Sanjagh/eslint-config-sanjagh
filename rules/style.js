@@ -19,5 +19,7 @@ module.exports = {
     'no-new-object': 'error',
 
     'no-array-constructor': 'error',
+
+    quotes: ['error', 'single'],
   },
 };
