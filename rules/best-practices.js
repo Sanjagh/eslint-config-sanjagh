@@ -9,5 +9,7 @@ module.exports = {
     'no-new-func': 'error',
     
     'no-param-reassign': 'error',
+
+    'no-iterator': 'error',
   },
 };
