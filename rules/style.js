@@ -35,5 +35,28 @@ module.exports = {
     'function-paren-newline': ['error', 'consistent'],
 
     'implicit-arrow-linebreak': ['error', 'beside'],
+
+    'no-nested-ternary': 'error',
+
+    'no-unneeded-ternary': 'error',
+
+    'no-mixed-operators': ['error', {
+      groups: [
+        ['%', '**'],
+        ['%', '+'],
+        ['%', '-'],
+        ['%', '*'],
+        ['%', '/'],
+        ['**', '+'],
+        ['**', '-'],
+        ['**', '*'],
+        ['**', '/'],
+        ['&', '|', '^', '~', '<<', '>>', '>>>'],
+        ['==', '!=', '===', '!==', '>', '>=', '<', '<='],
+        ['&&', '||'],
+        ['in', 'instanceof']
+      ],
+      allowSamePrecedence: false
+    }],
   },
 };

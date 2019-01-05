@@ -13,5 +13,9 @@ module.exports = {
     'no-iterator': 'error',
 
     'dot-notation': ['error', { allowKeywords: true }],
+
+    eqeqeq: ['error', 'always'],
+
+    'no-case-declarations': 'error',
   },
 };
