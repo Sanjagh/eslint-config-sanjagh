@@ -36,5 +36,9 @@ module.exports = {
     }, {
         enforceForRenamedProperties: false,
       }],
+
+    'prefer-template': 'error',
+
+    'template-curly-spacing': 'error',
   },
 };
