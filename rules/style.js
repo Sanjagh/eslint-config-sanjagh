@@ -158,5 +158,22 @@ module.exports = {
       exports: 'always-multiline',
       functions: 'always-multiline',
     }],
+
+    camelcase: ['error', { properties: 'never' }],
+
+    'new-cap': ['error', {
+      newIsCap: true,
+      newIsCapExceptions: [],
+      capIsNew: false,
+      capIsNewExceptions: ['Immutable.Map', 'Immutable.Set', 'Immutable.List'],
+    }],
+
+    'no-underscore-dangle': ['error', {
+      allow: [],
+      allowAfterThis: false,
+      allowAfterSuper: false,
+      enforceInMethodNames: true,
+    }],
   },
+
 };
