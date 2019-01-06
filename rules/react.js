@@ -24,5 +24,7 @@ module.exports = {
 
     'react/jsx-closing-tag-location': 'error',
 
+    'jsx-quotes': ['error', 'prefer-double'],
+
   },
 };
