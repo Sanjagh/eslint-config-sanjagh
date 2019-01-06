@@ -1,5 +1,6 @@
 module.exports = {
   extends: [
+    './rules/variables',
     './rules/errors',
     './rules/imports',
     './rules/best-practices',
