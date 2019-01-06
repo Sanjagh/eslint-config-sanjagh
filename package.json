@@ -2,6 +2,7 @@
   "name": "eslint-config-sanjagh",
   "version": "0.0.1",
   "license": "MIT",
+  "description": "Sanjagh's shareable ESLint config",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ."
