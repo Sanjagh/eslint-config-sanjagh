@@ -36,5 +36,8 @@ module.exports = {
     }],
 
     'react/jsx-boolean-value': 'error',
+
+    'react/no-array-index-key': 'error',
+
   },
 };
