@@ -20,8 +20,6 @@ module.exports = {
       allowAllCaps: true,
     }],
 
-    'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
-
     'react/jsx-closing-tag-location': 'error',
 
     'jsx-quotes': ['error', 'prefer-double'],
@@ -50,5 +48,9 @@ module.exports = {
       logical: 'parens-new-line',
       prop: 'parens-new-line',
     }],
+
+    'react/self-closing-comp': 'error',
+
+    'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
   },
 };
