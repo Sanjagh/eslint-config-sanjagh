@@ -16,5 +16,9 @@ module.exports = {
 
     'react/prefer-stateless-function': ['error', { ignorePureComponents: true }],
 
+    'react/jsx-pascal-case': ['error', {
+      allowAllCaps: true,
+    }],
+
   },
 };
