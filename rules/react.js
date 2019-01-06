@@ -20,5 +20,9 @@ module.exports = {
       allowAllCaps: true,
     }],
 
+    'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
+
+    'react/jsx-closing-tag-location': 'error',
+
   },
 };
