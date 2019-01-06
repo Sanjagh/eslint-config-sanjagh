@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "license": "MIT",
   "description": "Sanjagh's shareable ESLint config",
+  "repository": "sanjagh/eslint-config-sanjagh",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ."
