@@ -34,5 +34,7 @@ module.exports = {
       afterOpening: 'never',
       beforeClosing: 'never',
     }],
+
+    'react/jsx-boolean-value': 'error',
   },
 };
