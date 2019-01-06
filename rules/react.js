@@ -52,5 +52,13 @@ module.exports = {
     'react/self-closing-comp': 'error',
 
     'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
+
+    'react/jsx-no-bind': ['error', {
+      ignoreRefs: true,
+      allowArrowFunctions: true,
+      allowFunctions: false,
+      allowBind: false,
+      ignoreDOMComponents: true,
+    }],
   },
 };
