@@ -1,5 +1,6 @@
 module.exports = {
   extends: [
+    './rules/react',
     './rules/variables',
     './rules/errors',
     './rules/imports',
