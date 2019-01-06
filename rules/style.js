@@ -174,6 +174,8 @@ module.exports = {
       allowAfterSuper: false,
       enforceInMethodNames: true,
     }],
+
+    'eol-last': ['error', 'always'],
   },
 
 };
