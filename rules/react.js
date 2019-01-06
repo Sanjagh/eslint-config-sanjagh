@@ -60,5 +60,7 @@ module.exports = {
       allowBind: false,
       ignoreDOMComponents: true,
     }],
+
+    'react/require-render-return': 'error',
   },
 };
