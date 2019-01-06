@@ -26,5 +26,13 @@ module.exports = {
 
     'jsx-quotes': ['error', 'prefer-double'],
 
+    'react/jsx-props-no-multi-spaces': 'error',
+
+    'react/jsx-tag-spacing': ['error', {
+      closingSlash: 'never',
+      beforeSelfClosing: 'always',
+      afterOpening: 'never',
+      beforeClosing: 'never',
+    }],
   },
 };
