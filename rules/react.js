@@ -39,5 +39,6 @@ module.exports = {
 
     'react/no-array-index-key': 'error',
 
+    'react/no-string-refs': 'error',
   },
 };
