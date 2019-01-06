@@ -88,8 +88,6 @@ module.exports = {
       ignoreComments: false,
     }],
 
-    'space-before-blocks': 'error',
-
     'keyword-spacing': ['error', {
       before: true,
       after: true,
