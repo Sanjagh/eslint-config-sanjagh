@@ -79,5 +79,9 @@ module.exports = {
     'react/no-danger': 'warn',
 
     'react/no-deprecated': 'error',
+
+    'react/no-did-update-set-state': 'error',
+
+    'react/no-will-update-set-state': 'error',
   },
 };
