@@ -83,5 +83,7 @@ module.exports = {
     'react/no-did-update-set-state': 'error',
 
     'react/no-will-update-set-state': 'error',
+
+    'react/no-unknown-property': 'error',
   },
 };
