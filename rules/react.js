@@ -85,5 +85,49 @@ module.exports = {
     'react/no-will-update-set-state': 'error',
 
     'react/no-unknown-property': 'error',
+
+    'react/sort-comp': ['error', {
+      order: [
+        'static-methods',
+        'instance-variables',
+        'lifecycle',
+        '/^on.+$/',
+        'getters',
+        'setters',
+        '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
+        'instance-methods',
+        'everything-else',
+        'rendering',
+      ],
+      groups: {
+        lifecycle: [
+          'displayName',
+          'propTypes',
+          'contextTypes',
+          'childContextTypes',
+          'mixins',
+          'statics',
+          'defaultProps',
+          'constructor',
+          'getDefaultProps',
+          'getInitialState',
+          'state',
+          'getChildContext',
+          'componentWillMount',
+          'componentDidMount',
+          'componentWillReceiveProps',
+          'shouldComponentUpdate',
+          'componentWillUpdate',
+          'componentDidUpdate',
+          'componentWillUnmount',
+        ],
+        rendering: [
+          '/^render.+$/',
+          'render',
+        ],
+      },
+    }],
+
+
   },
 };
