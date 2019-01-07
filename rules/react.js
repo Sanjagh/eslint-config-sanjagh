@@ -135,4 +135,10 @@ module.exports = {
     'react/destructuring-assignment': ['error', 'always'],
 
   },
+
+  settings: {
+    react: {
+      version: '16.0',
+    },
+  },
 };
