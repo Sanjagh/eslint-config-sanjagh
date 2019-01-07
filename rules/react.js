@@ -128,6 +128,7 @@ module.exports = {
       },
     }],
 
+    'react/no-unused-state': 'error',
 
   },
 };
