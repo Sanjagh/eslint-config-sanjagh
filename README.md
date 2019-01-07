@@ -30,8 +30,27 @@ npx install-peerdeps --dev eslint-config-sanjagh
 
 ## Usage
 
-Add `"extends": "sanjagh"` to your `.eslintrc`
+Once you have done with installation add `sanjagh` to `extends` part of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring)
 
-## License 
+JSON `.eslintrc.json`:
+```json
+{
+  "extends": "sanjagh"
+}
+```
+
+YAML `.eslintrc.yml`:
+```yaml
+extends:
+  - sanjagh
+```
+
+Js: `.eslintrc.js`:
+```js
+module.exports = {
+  extends: 'sanjagh',
+};
+```
+## License
 
 [MIT](./LICENSE) © Sanjagh
