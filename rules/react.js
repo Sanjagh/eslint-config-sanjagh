@@ -70,5 +70,7 @@ module.exports = {
       eventHandlerPropPrefix: 'on',
     }],
 
+    'react/jsx-max-props-per-line': ['error', { maximum: 1, when: 'multiline' }],
+
   },
 };
