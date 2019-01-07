@@ -62,5 +62,8 @@ module.exports = {
     }],
 
     'react/require-render-return': 'error',
+
+    'react/jsx-indent-props': ['error', 2],
+
   },
 };
