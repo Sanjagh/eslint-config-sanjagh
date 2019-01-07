@@ -76,5 +76,6 @@ module.exports = {
 
     'react/jsx-uses-vars': 'error',
 
+    'react/no-danger': 'warn',
   },
 };
