@@ -65,5 +65,10 @@ module.exports = {
 
     'react/jsx-indent-props': ['error', 2],
 
+    'react/jsx-handler-names': ['error', {
+      eventHandlerPrefix: 'handle',
+      eventHandlerPropPrefix: 'on',
+    }],
+
   },
 };
