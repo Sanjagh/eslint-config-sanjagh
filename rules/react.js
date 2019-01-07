@@ -130,5 +130,7 @@ module.exports = {
 
     'react/no-unused-state': 'error',
 
+    'react/no-access-state-in-setstate': 'error',
+
   },
 };
