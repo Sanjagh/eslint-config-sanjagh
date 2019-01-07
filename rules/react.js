@@ -132,5 +132,7 @@ module.exports = {
 
     'react/no-access-state-in-setstate': 'error',
 
+    'react/destructuring-assignment': ['error', 'always'],
+
   },
 };
