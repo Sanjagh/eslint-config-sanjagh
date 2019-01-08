@@ -8,6 +8,6 @@ module.exports = {
 
     'no-unused-vars': ['error', { vars: 'all', args: 'after-used', ignoreRestSiblings: true }],
 
-    'no-use-before-define': 'error',
+    'no-use-before-define': ['error', { variables: false }],
   },
 };
