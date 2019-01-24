@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sanjagh",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "description": "Sanjagh's shareable ESLint config",
   "repository": "sanjagh/eslint-config-sanjagh",
