@@ -11,5 +11,7 @@ module.exports = {
     'import/prefer-default-export': 'error',
 
     'import/first': 'error',
+
+    'import/exports-last': 'error',
   },
 };
