@@ -13,5 +13,7 @@ module.exports = {
     'import/first': 'error',
 
     'import/exports-last': 'error',
+
+    'import/no-named-export': 'error',
   },
 };
