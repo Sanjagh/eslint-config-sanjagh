@@ -22,6 +22,8 @@ module.exports = {
 
     'func-style': ['warn', 'expression'],
 
+    'func-names': 'error',
+
     'space-before-function-paren': ['error', {
       anonymous: 'always',
       named: 'never',
