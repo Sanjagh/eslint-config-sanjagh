@@ -30,8 +30,6 @@ module.exports = {
 
     'space-before-blocks': 'error',
 
-    'function-paren-newline': ['error', 'consistent'],
-
     'no-nested-ternary': 'error',
 
     'no-unneeded-ternary': 'error',
