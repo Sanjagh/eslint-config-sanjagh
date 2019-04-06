@@ -12,8 +12,6 @@ module.exports = {
 
     'no-plusplus': 'error',
 
-    'operator-linebreak': ['error', 'before', { overrides: { '=': 'none' } }],
-
     'no-new-object': 'error',
 
     'no-array-constructor': 'error',
