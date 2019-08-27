@@ -1,6 +1,7 @@
 module.exports = {
   plugins: [
     'react',
+    'react-hooks',
   ],
 
   parserOptions: {
@@ -137,6 +138,9 @@ module.exports = {
 
     'react/destructuring-assignment': ['error', 'always'],
 
+    'react-hooks/rules-of-hooks': 'error',
+
+    'react-hooks/exhaustive-deps': 'warn',
   },
 
   settings: {
