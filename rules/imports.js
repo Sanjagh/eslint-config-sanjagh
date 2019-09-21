@@ -13,5 +13,7 @@ module.exports = {
     'import/first': 'error',
 
     'import/exports-last': 'error',
+
+    'import/newline-after-import': 'error',
   },
 };
